@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react'
 import styles from './Hero.module.css'
-import Img from './Img'
 
 const Hero = () => {
   const [dark, setDark] = useState(false)
@@ -17,7 +16,7 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      <Img alt="Scenic pixel-art banner" src={dark ? '/banner2.gif' : '/banner.gif'} />
+      <ascii-art piece={dark ? 'earthrise' : 'ocean-sunset'} />
     </section>
   )
 }
