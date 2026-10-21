@@ -52,7 +52,6 @@ function getMonthLabels(weeks: ContributionWeek[]): (string | null)[] {
 
 const GitHubContributions = () => {
   const [data, setData] = useState<ContributionData | null>(null)
-  const [error, setError] = useState(false)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
@@ -62,7 +61,7 @@ const GitHubContributions = () => {
         return res.json()
       })
       .then(setData)
-      .catch(() => setError(true))
+       .catch(() => undefined)
       .finally(() => setLoading(false))
   }, [])
 

@@ -11,7 +11,7 @@ async function fetchContributions() {
 
   const query = `
     query {
-      user(login: "rishabh1244") {
+      user(login: "rizzabhdwaj") {
         contributionsCollection {
           contributionCalendar {
             totalContributions
