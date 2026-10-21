@@ -16,7 +16,11 @@ const Hero = () => {
 
   return (
     <section className={styles.hero}>
-      <ascii-art piece={dark ? 'earthrise' : 'ocean-sunset'} />
+      <img
+        className={styles.banner}
+        src={dark ? '/banner2.png' : '/banner.png'}
+        alt=""
+      />
     </section>
   )
 }
