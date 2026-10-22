@@ -18,7 +18,7 @@ const Hero = () => {
     <section className={styles.hero}>
       <img
         className={styles.banner}
-        src={dark ? '/banner2.png' : '/banner.png'}
+        src={dark ? '/banner2.gif' : '/banner.gif'}
         alt=""
       />
     </section>
