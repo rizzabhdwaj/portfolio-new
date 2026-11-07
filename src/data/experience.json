@@ -1,9 +1,16 @@
 [
   {
-    "date": "2026 → PRESENT",
+    "date": "ONGOING",
     "title": "Open Source Contributor",
-    "company": "Corsair",
-    "description": "Contributing to an open-source integrations platform, including work on integrating an Atlassian Confluence API plugin."
+    "company": "Community Projects",
+    "description": "Contributing to established open-source projects across data systems, observability, and systems programming. Grouped here by ecosystem rather than by individual pull request.",
+    "projects": [
+      "Apache DataFusion",
+      "Apache Arrow",
+      "Prometheus (CNCF)",
+      "OpenTelemetry",
+      "Rust Org"
+    ]
   },
   {
     "date": "2025 → PRESENT",
