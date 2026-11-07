@@ -3,7 +3,7 @@
     "date": "ONGOING",
     "title": "Open Source Contributor",
     "company": "Community Projects",
-    "description": "Contributing to established open-source projects across data systems, observability, and systems programming. Grouped here by ecosystem rather than by individual pull request.",
+    "description": "Contributing to established open-source projects across data systems, observability, and systems programming. ",
     "projects": [
       "Apache DataFusion",
       "Apache Arrow",
