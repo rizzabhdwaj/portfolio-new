@@ -17,7 +17,7 @@ const Projects = () => (
           <div className={styles.projectCopy}>
             <div className={styles.projectTitleRow}>
               <h3>{project.name}</h3>
-              <a href={project.github} target="_blank" rel="noreferrer"><Arrow /></a>
+              <a href={project.github} aria-label={`View ${project.name} on GitHub`} target="_blank" rel="noreferrer"><Arrow /></a>
             </div>
             <p>{project.description}</p>
           </div>

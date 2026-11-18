@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rizzabh-dusky.vercel.app/sitemap.xml
