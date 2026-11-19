@@ -24,10 +24,10 @@
     "github": "https://github.com/rizzabhdwaj/Sketch-AI"
   },
   {
-    "name": "sorting-algo-visualiser",
-    "description": "Implemented a real-time sorting algorithm visualization engine in C using Raylib, and algorithmic clarity. The system visually represents sorting processes step-by-step, providing intuitive insight into algorithmic behavior.",
-    "image": "projects/sorting.png",
-    "github": "https://github.com/rizzabhdwaj/sorting-algo-visualiser"
+    "name": "Vector - Distributed Task Scheduler & Executor",
+    "description": "A distributed task queue and execution engine built using Rust and Go, featuring task scheduling, worker coordination, fault tolerance, and horizontal scaling.",
+    "image": "projects/vector.png",
+    "github": "https://github.com/rizzabhdwaj/Vector"
   },
   {
     "name": "raycasting-js",
